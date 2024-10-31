@@ -1,0 +1,7 @@
+{
+  "name": "HolidayCheer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
