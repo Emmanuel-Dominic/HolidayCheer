@@ -17,3 +17,20 @@ export interface PrivateRouteProps {
     path: string;
     exact?: boolean;
 }
+
+export interface User {
+    userId: string;
+    name: string;
+    email: string;
+    contact: string;
+    onWhatsApp: boolean;
+    assignedTo: string | null;
+    dateOfBirth: string;
+    yearOfJoining: string;
+    nextOfKin: string;
+    parentContact: string;
+    isAdmin: boolean;
+    spinned: boolean;
+    assigned: boolean;
+    password: string;
+}
