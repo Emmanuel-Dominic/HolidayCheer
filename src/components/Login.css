@@ -1,0 +1,15 @@
+
+.loginPage {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.loginForm {
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
