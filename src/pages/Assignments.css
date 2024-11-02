@@ -1,0 +1,11 @@
+ion-spinner {
+    width: 100px;
+    height: 100px;
+}
+
+ion-card {
+    align-items: center;
+    margin: 20px auto;
+    justify-content: center;
+    text-align: center;
+}
