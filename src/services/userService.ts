@@ -152,7 +152,6 @@ const myProfile = async (): Promise<DocumentData | null> => {
     const user = auth.currentUser;
   
     if (!user) {
-      console.log("No user is currently logged in.");
       return null;
     }
   
@@ -182,7 +181,6 @@ const amGifting = async (assignedToValue: string): Promise<DocumentData | null> 
 const isAdminUser = async() => {
     const user = auth.currentUser;
     if (!user) {
-      console.log("No user is currently logged in.");
       return false;
     }
     const q = query(collection(db, 'dfnUsers'), where('userId', '==', user.uid));

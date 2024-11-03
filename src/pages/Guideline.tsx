@@ -23,7 +23,6 @@ const GuidelinePage: React.FC = () => {
       await userService.AssignUsers()
       alert('Users have been assigned successfully');
     } catch (error) {
-      console.error("Error assigning users: ", error);
       alert("Failed to assign users");
     } finally {
       setIsLoading(false);
