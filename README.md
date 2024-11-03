@@ -1,1 +1,3 @@
 # HolidayCheer
+
+This project is a user registration, login, and interaction platform with a focus on streamlined user experience and real-time engagement. Built with a modern UI and robust validation, users can register with detailed profiles, log in securely, and interact with assigned contacts through calls, SMS, or WhatsApp. Features include an admin dashboard, guidance for registration and login, a spin-to-assign gift interaction, and easy contact options. The platform is designed to be accessible, user-friendly, and responsive, ensuring a smooth experience for both administrators and users.
