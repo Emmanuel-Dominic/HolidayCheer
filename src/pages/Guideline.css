@@ -1,0 +1,68 @@
+ion-card.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  max-width: 620px;
+  margin: 40px auto;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+}
+
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: var(--ion-color-primary);
+}
+
+.profile-title ion-title {
+  margin: 0 10px;
+}
+
+.guide-list {
+  width: 100%;
+  font-size: 12px;
+  margin: 0 auto;
+}
+
+.guide-list ion-item {
+  --inner-padding-start: 0;
+}
+
+.text-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.guide-list ion-label {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.guide-list ion-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.guide-list ion-list {
+  list-style-type: disc;
+  margin-bottom: 10px;
+}
+
+.guide-list ion-icon {
+  font-size: 22px;
+}
