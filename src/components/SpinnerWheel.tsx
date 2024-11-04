@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { IonList, IonItem, IonLabel, IonCard, IonCardContent, IonButton, IonTitle, IonCardHeader } from '@ionic/react';
+import { IonList, IonItem, IonLabel, IonCard, IonCardContent, IonButton, IonCardHeader, IonCardTitle } from '@ionic/react';
 import './SpinnerWheel.css';
 import registrationService from '../services/registrationService';
 
@@ -18,7 +18,7 @@ const SpinnerWheel: React.FC<SpinnerWheelProps> = ({name, startRotation}) => {
   return (
     <IonCard>
       <IonCardHeader>
-        <IonTitle size="large">Click Button to see Your Gift Person</IonTitle>
+        <IonCardTitle>Click Button to see Your Gift Person</IonCardTitle>
       </IonCardHeader>
       <IonCardContent class="spin-content">
         <IonList lines="none" className={name}>
