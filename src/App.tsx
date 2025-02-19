@@ -2,7 +2,7 @@ import React from 'react';
 import { IonApp, IonIcon, IonLabel, IonRouterOutlet, IonTabBar, IonTabButton, IonTabs, setupIonicReact } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
 import { home, people, help } from 'ionicons/icons';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect } from "react-router-dom";
 
 import HomePage from './pages/Home';
 import RegistrationPage from './components/Register';
@@ -43,7 +43,7 @@ const App: React.FC = () => {
                 <Route exact path="/guidelines" component={GuidelinePage} />
                 <PrivateRoute exact path="/" component={HomePage} />
                 <Route path="*">
-                    <Redirect to="/" />
+                  <Redirect to="/" />
                 </Route>
               </Switch>
             </IonRouterOutlet>
